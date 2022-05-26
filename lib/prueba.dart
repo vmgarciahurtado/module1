@@ -6,7 +6,10 @@ class Module1Test extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.purple,
-    );
+        color: Colors.purple,
+        child: const Text(
+          'PRUEBA',
+          style: TextStyle(fontSize: 30),
+        ));
   }
 }
