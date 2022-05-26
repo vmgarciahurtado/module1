@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 
-void main() => runApp(const MyApp());
+void main() => runApp(const Module1());
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class Module1 extends StatelessWidget {
+  const Module1({super.key});
 
   // This widget is the root of your application.
   @override
