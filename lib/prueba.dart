@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:module1/prueb_vm.dart';
 
 class Module1Test extends StatelessWidget {
-  const Module1Test({Key? key}) : super(key: key);
+  Module1Test({Key? key}) : super(key: key);
+
+  final viewModel = Get.put(PruebaVm());
 
   @override
   Widget build(BuildContext context) {
