@@ -19,4 +19,8 @@ class Module1Test extends StatelessWidget {
           ),
         ));
   }
+
+  void test() {
+    print('Test Function');
+  }
 }
